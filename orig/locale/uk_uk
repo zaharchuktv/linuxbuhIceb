@@ -1,0 +1,4 @@
+
+
+msgfmt -vo iceBw.mo iceBw_uk.po
+cp iceBw.mo /usr/share/locale/uk/LC_MESSAGES

@@ -1,0 +1,89 @@
+#07.09.2010
+rm -f ./libbuh_g/iceb_prblm.c
+#13.10.2010
+rm -f ./buhg_g/i_saldo.c
+#29.10.2010
+rm -f ./buhg_g/alxinw.c
+#16.11.2010
+rm -f ./libutil_g/iceb_u_kikz.c
+#25.01.2011
+rm -f ./libbuh_g/iceb_nalnakh.c
+rm -f ./libbuh_g/iceb_vstavfil.c
+#18.02.2011
+rm -f ./buhg_g/zarpensmw_r.c
+#06.04.2011
+rm -f ./buhg_g/podohrs2w.cxx
+#09.04.2011
+rm -f ./buhg_g/filtr_xmlw.c
+#23.07.2011
+rm -f ./buhg_g/rnof_xmlw.c
+rm -f ./buhg_g/xml_rek_nnw.h
+#02.08.2011
+rm -f ./buhg_g/sprkvrt_komw.c
+rm -f ./buhg_g/zagf1df.c
+#05.09.2011
+rm -f ./libbuh_g/iceb_imafnsi.c
+
+files="arhivw extractw \
+Makefile VERSION CHANGES INSTALL \
+*.h \
+./buhg_g/*.c \
+./buhg_g/*.h \
+./buhg_g/*.xpm \
+./buhg_g/Makefile \
+./libutil_g/*.c \
+./libutil_g/*.h \
+./libutil_g/Makefile \
+./libdev_g/*.c \
+./libdev_g/*.h \
+./libdev_g/Makefile \
+./libbuh_g/*.c \
+./libbuh_g/*.h \
+./libbuh_g/Makefile \
+./libsql/*.c \
+./libsql/*.h \
+./libsql/Makefile \
+./locale/Makefile \
+./locale/uk_ru \
+./locale/uk_uk \
+./locale/*.po \
+./taxi/*.c \
+./taxi/*.h \
+./taxi/*.xpm \
+./taxi/Makefile \
+./taxi/Makefile_vv \
+./taxi/bx/*.alx \
+./knopki/*.xpm \
+./knopki/iceBw_icon.png \
+./util/icebwtoutf8 \
+./util/koi8u_utf8 \
+./util/Makefile \
+./util/*.c"
+
+
+
+tar cvfj iceBw.tar.bz2 $files
+#tar cvfM /dev/fd0 iceBw.tar.bz2
+#tar cvfz iceBw.tgz $files
+#tar cvfM /dev/fd0 iceBw.tgz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,60 @@
+#
+BINDIR=/usr/local/bin
+
+CC  = c++
+INCLUDE = \
+	-I../libbuh_g \
+	-I/usr/include/mysql \
+	-I../libsql \
+	-I../libutil_g \
+	-I../libdev_g
+        
+
+#CFLAGS =  $(INCLUDE) `pkg-config --cflags glib-2.0` -O2 -Wall
+CFLAGS = `pkg-config --cflags gtk+-2.0` $(INCLUDE) -O2 -Wall
+
+
+#LOADLIBES = -L../libsql -L../libutil_g -lutil_g -lsql -lmysqlclient `pkg-config --libs glib-2.0`
+LOADLIBES = -L/usr/lib -L../libsql -L../libbuh_g -L../libutil_g -L../libdev_g -lbuh_g -ldev_g -lutil_g -lsql -lmysqlclient `pkg-config --libs gtk+-2.0`
+
+LDFLAGS= -s
+
+BIN = i_kontr_vv i_zapis_vv
+
+	
+
+HEADERS = i_kontr_vv.h i_zapis_vv.h \
+	../libutil_g/libutil_g.a \
+	../iceBw.h 
+
+OBJ = i_kontr_vv.o ras_sal_kl_t.o t_msql_error.o otm_opl_doks_t.o otm_opl_dok_t.o sumapsh_t.o t_msql_error.o zap_v_kas.o i_vv_start.o
+OBJ1 = i_zapis_vv.o t_msql_error.o zap_rest_dok.o zap_vrest_dok.o vrshet_nomdok.o t_msql_error.o i_vv_start.o
+
+
+	
+
+all:	$(BIN)
+
+
+i_kontr_vv: $(OBJ)
+i_zapis_vv: $(OBJ1)
+#i_kontr_vv: i_kontr_vv.o $(CC) -I../libbuh_g \
+#	-I/usr/include/mysql \
+#	-I../libsql \
+#	-I../libutil_g \
+#	-I../libdev_g \
+#	-O2 -Wall \
+#	i_kontr_vv.o \	
+#	-L../libsql -L../libbuh_g -L../libutil_g -L../libdev_g -lbuh_g -ldev_g -lutil_g -lsql -lmysqlclient \
+#	-o i_kontr_vv
+
+#$(OBJ):	Makefile $(HEADERS)
+
+$(OBJ): $(HEADERS) 
+$(OBJ1): $(HEADERS) 
+
+install:	all
+	install -m 0755 $(BIN) $(BINDIR)
+
+clean: 
+	rm -f i_kontr_vv i_zapis_vv *.o
