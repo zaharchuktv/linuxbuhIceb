@@ -1,4 +1,4 @@
-#
+
 all: *
 install:	all
 	mkdir -p /usr/share/doc/linuxbuh

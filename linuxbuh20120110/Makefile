@@ -1,4 +1,4 @@
-subdirs=libsql libutil_g libdev_g libbuh_g buhg_g labels
+subdirs=libsql libutil_g libdev_g libbuh_g buhg_g
 
 
 all:
