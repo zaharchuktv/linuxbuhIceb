@@ -26,29 +26,22 @@ src_compile() {
 }
 
 src_install() {
+cd ${WORKDIR}
 mkdir -p ${D}/usr/share/doc/linuxbuh
-#mkdir -p ${D}/usr/sbin
+mkdir -p ${D}/usr/share/doc/linuxbuh/bx
+mkdir -p ${D}/usr/share/doc/linuxbuh/doc
 mkdir -p ${D}/usr/share/pixmaps
 mkdir -p ${D}/usr/share/applications
+mkdir -p ${D}/usr/bin
 
-#cp -r ${WORKDIR}/${PN}/shscripts/update-system-notify ${D}/usr/sbin
-#cp -r ${WORKDIR}/${PN}/shscripts/update-system-notify-daemon ${D}/usr/sbin
-#cp -r ${WORKDIR}/${PN}/shscripts/update-system-updater ${D}/usr/sbin
-#cp -r ${WORKDIR}/${PN}/conf/desktop.cfg ${D}/etc/update-system-notify
-#cp -r ${WORKDIR}/${PN}/conf/update-system-notify.cron ${D}/etc/cron.hourly
-#cp -r ${WORKDIR}/${PN}/README.txt ${D}/usr/share/doc/${PN}
-#cp -r ${WORKDIR}/${PN}/Changelog.txt ${D}/usr/share/doc/${PN}
-#cp -r ${WORKDIR}/${PN}/TODO.txt ${D}/usr/share/doc/${PN}
-#cp -r ${WORKDIR}/${PN}/resources/images/dialog-error.png ${D}/usr/share/doc/${PN}
-#cp -r ${WORKDIR}/${PN}/resources/images/dialog-warning.png ${D}/usr/share/doc/${PN}
-#cp -r ${WORKDIR}/${PN}/resources/images/update-system-updater.png ${D}/usr/share/pixmaps
 cp -r ${WORKDIR}/labels/*.desktop ${D}/usr/share/applications
 cp -r ${WORKDIR}/INSTALL ${D}/usr/share/doc/linuxbuh
-#cp -r ${WORKDIR}/${PN}/resources/images/update-system-updater-kde.desktop ${D}/usr/share/doc/${PN}
-
-cd ${WORKDIR}
+cp -r ${WORKDIR}/doc/*.txt ${D}/usr/share/doc/linuxbuh/doc
+cp -r ${WORKDIR}/bx/*.alx ${D}/usr/share/doc/linuxbuh/bx
+cp -r ${WORKDIR}/resources/linuxbuhupdate ${D}/usr/bin
 dodir /usr/bin
 emake BINDIR=${D}/usr/bin install || die "emake failed"
+
 
 }
 
