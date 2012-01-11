@@ -1,5 +1,4 @@
-subdirs=i_admin i_start i_xbu
-
+subdirs=obshie i_admin i_start i_xbu i_xmu
 
 all:
 	@for dir in $(subdirs) ; do \

@@ -7,7 +7,7 @@
 //#include "buhg_g.h"
 #include "../headers/buhg_g.h"
 //ze
-#include "saldo.h"
+#include "../headers/saldo.h"
 
 int saldogk_r(short godn,short godk,GtkWidget *wpredok);
 

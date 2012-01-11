@@ -2,7 +2,7 @@
 /*16.04.2010	10.05.2004	Белых А.И.	i_start.c
 Стартовая программа для запуска всех подсистем
 */
-#define DVERSIQ "09.01.2012"
+#define DVERSIQ "11.01.2012"
 #include        <stdlib.h>
 #include        <sys/stat.h>
 #include        <pwd.h>

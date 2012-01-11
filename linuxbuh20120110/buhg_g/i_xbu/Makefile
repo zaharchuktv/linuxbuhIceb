@@ -72,13 +72,13 @@ OBJ = i_xbu.o \
 	l_saldo_sh.o l_saldo_sh_p.o l_saldo_sh_v.o \
 	l_saldo_shk.o l_saldo_shk_p.o  l_saldo_shk_v.o \
 	m_plc_gk.o m_poiprov.o m_vdd.o m_vprov_bs.o m_vprov_nbs.o m_vprov_bs_gr.o m_vprov_nbs_gr.o \
-	ostkarw.o ostuosw.o \
+	../obshie/ostkarw.o ostuosw.o \
 	pdokkow.o pdokmuw.o pdokpdw.o pdokukrw.o pdokuosw.o pdokuslw.o pdokzpw.o \
 	plc_gk.o plc_gk_r.o poiinw.o poiinpdw.o poiprovw.o provvkp.o \
 	pib_end_dokw.o pib_itlw.o pib_strw.o \
 	pvbank_m.o pvbank_r.o pvbanks_m.o pvbanks_r.o pvbanks_kprovw.o \
 	r_poiprov.o rbd.o rpshet_rsw.o rpshet_ssw.o rpsrsw.o rspvk_m.o rspvk_r.o\
-	saldogkw.o saldo_m.o saldogk_r.o saldonbsw.o sapgorsw.o \
+	saldogkw.o ../obshie/saldo_m.o saldogk_r.o saldonbsw.o sapgorsw.o \
 	ukrsib_strw.o ukrsib_endw.o ukrsib_startw.o\
 	ukreksim_hapw.o ukreksim_endw.o ukreksim_zstrw.o ukreksim_hw.o\
 	vibshet.o vregp.o \

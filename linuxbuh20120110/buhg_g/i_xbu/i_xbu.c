@@ -2,7 +2,7 @@
 /*04.12.2010	12.08.2003	Белых А.И.	i_xbu.c
 Главная книга
 */
-#define  DVERSIQ "09.01.2012"
+#define  DVERSIQ "11.01.2012"
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
