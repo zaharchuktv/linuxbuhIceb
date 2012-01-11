@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Admin base LinuxBuh.RU
+Name[ru]=Администрирование базы LinuxBuh.RU
+Comment=Администрирование базы бухгалтерской системы LinuxBuh.RU
+Exec=i_admin %f
+Icon=linuxbuh
+Terminal=false
+Type=Application
+Categories=Office;
+StartupNotify=true
+OnlyShowIn=GNOME;XFCE;KDE;
+
