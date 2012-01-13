@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=General ledger LinuxBuh.RU
+Name[ru]=Главная бухгалтерская книга LinuxBuh.RU
+Comment=Главная бухгалтерская книга LinuxBuh.RU
+Exec=i_xbu %f
+Icon=linuxbuh
+Terminal=false
+Type=Application
+Categories=Office;
+StartupNotify=true
+OnlyShowIn=GNOME;XFCE;KDE;
+

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Accounting system LinuxBuh.RU
+Name[ru]=Бухгалтерская система LinuxBuh.RU
+Comment=Бухгалтерская система LinuxBuh.RU
+Exec=i_start %f
+Icon=linuxbuh
+Terminal=false
+Type=Application
+Categories=Office;
+StartupNotify=true
+OnlyShowIn=GNOME;XFCE;KDE;
+
