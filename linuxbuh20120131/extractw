@@ -1,0 +1,30 @@
+#07.09.2010
+rm -f ./libbuh_g/iceb_prblm.c
+#13.10.2010
+rm -f ./buhg_g/i_saldo.c
+#29.10.2010
+rm -f ./buhg_g/alxinw.c
+#16.11.2010
+rm -f ./libutil_g/iceb_u_kikz.c
+#25.01.2011
+rm -f ./libbuh_g/iceb_nalnakh.c
+rm -f ./libbuh_g/iceb_vstavfil.c
+#18.02.2011
+rm -f ./buhg_g/zarpensmw_r.c
+#06.04.2011
+rm -f ./buhg_g/podohrs2w.cxx
+#09.04.2011
+rm -f ./buhg_g/filtr_xmlw.c
+#23.07.2011
+rm -f ./buhg_g/rnof_xmlw.c
+rm -f ./buhg_g/xml_rek_nnw.h
+#02.08.2011
+rm -f ./buhg_g/sprkvrt_komw.c
+rm -f ./buhg_g/zagf1df.c
+#05.09.2011
+rm -f ./libbuh_g/iceb_imafnsi.c
+
+#tar xvfM /dev/fd0
+#bzip -d iceBw.tar.bz2
+#tar xvf iceBw.tar
+tar xvfj iceBw.tar.bz2
