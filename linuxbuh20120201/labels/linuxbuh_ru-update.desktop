@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Update LinuxBuh.RU
+Name[ru]=Обновление LinuxBuh.RU
+Comment=Обновление LinuxBuh.RU
+Exec=gksu linuxbuhupdate %f
+Icon=linuxbuh
+Terminal=true
+Type=Application
+Categories=Office;
+StartupNotify=true
+OnlyShowIn=GNOME;XFCE;KDE;
+

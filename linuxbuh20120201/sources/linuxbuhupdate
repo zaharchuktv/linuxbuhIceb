@@ -1,0 +1,2 @@
+#!/bin/sh
+layman -s ztime && emerge linuxbuh

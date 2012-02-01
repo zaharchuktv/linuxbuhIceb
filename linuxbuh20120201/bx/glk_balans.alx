@@ -1,0 +1,979 @@
+{\rtf1\ansi\deff3\adeflang1025
+{\fonttbl{\f0\froman\fprq2\fcharset0 Times New Roman;}{\f1\froman\fprq2\fcharset2 Symbol;}{\f2\fswiss\fprq2\fcharset0 Arial;}{\f3\froman\fprq2\fcharset128 Arial;}{\f4\fswiss\fprq2\fcharset128 Arial;}{\f5\froman\fprq2\fcharset204 Times New Roman;}{\f6\froman\fprq2\fcharset204 Cambria;}{\f7\fswiss\fprq2\fcharset204 Tahoma;}{\f8\fswiss\fprq2\fcharset204 Arial;}{\f9\fnil\fprq2\fcharset128 Droid Sans Fallback;}{\f10\fnil\fprq2\fcharset128 unifont;}{\f11\fnil\fprq0\fcharset128 unifont;}}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green0\blue0;\red0\green0\blue128;\red128\green128\blue128;}
+{\stylesheet{\s0\snext0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049 \'c1\'e0\'e7\'ee\'e2\'fb\'e9;}
+{\s1\sbasedon0\snext0\ilvl0\outlinelevel0\qc\widctlpar\li0\ri2408\lin0\rin2408\fi0\keepn\ltrpar\cf0\b\hich\af5\dbch\af5\afs24\lang1025\ab\loch\f5\fs24\lang1033 \'c7\'e0\'e3\'ee\'eb\'ee\'e2\'ee\'ea 1;}
+{\s2\sbasedon0\snext0\ilvl1\outlinelevel1\ql\widctlpar\li57\ri0\lin57\rin0\fi0\keepn\ltrpar\cf0\b\hich\af5\dbch\af5\afs20\lang1025\ab\loch\f5\fs20\lang1033 \'c7\'e0\'e3\'ee\'eb\'ee\'e2\'ee\'ea 2;}
+{\*\cs15\snext15 \'ce\'f1\'ed\'ee\'e2\'ed\'ee\'e9 \'f8\'f0\'e8\'f4\'f2 \'e0\'e1\'e7\'e0\'f6\'e0;}
+{\*\cs16\sbasedon15\snext16\b\kerning1\hich\af5\dbch\af5\afs32\ab\loch\f6\fs32  \'c7\'ed\'e0\'ea \'c7\'ed\'e0\'ea3;}
+{\*\cs17\sbasedon15\snext17\i\b\hich\af5\dbch\af5\afs28\ai\ab\loch\f6\fs28  \'c7\'ed\'e0\'ea \'c7\'ed\'e0\'ea2;}
+{\*\cs18\sbasedon15\snext18\afs20\fs20  \'c7\'ed\'e0\'ea \'c7\'ed\'e0\'ea1;}
+{\*\cs19\sbasedon15\snext19\afs20\fs20  \'c7\'ed\'e0\'ea \'c7\'ed\'e0\'ea;}
+{\*\cs20\sbasedon15\snext20\cf2\ul\ulc0 \'c8\'ed\'f2\'e5\'f0\'ed\'e5\'f2-\'f1\'f1\'fb\'eb\'ea\'e0;}
+{\s21\sbasedon0\snext22\ql\widctlpar\sb240\sa120\keepn\ltrpar\cf0\hich\af9\dbch\af10\afs28\lang1025\loch\f4\fs28\lang1049 \'84\'48\'84\'70\'84\'73\'84\'80\'84\'7c\'84\'80\'84\'72\'84\'80\'84\'7b;}
+{\s22\sbasedon0\snext22\ql\widctlpar\sb0\sa120\ltrpar\cf0\hich\af5\dbch\af5\afs20\lang1025\loch\f5\fs20\lang1049 \'ce\'f1\'ed\'ee\'e2\'ed\'ee\'e9 \'f2\'e5\'ea\'f1\'f2;}
+{\s23\sbasedon22\snext23\ql\widctlpar\sb0\sa120\ltrpar\cf0\hich\af5\dbch\af11\afs20\lang1025\loch\f5\fs20\lang1049 \'d1\'ef\'e8\'f1\'ee\'ea;}
+{\s24\sbasedon0\snext24\ql\widctlpar\sb120\sa120\noline\ltrpar\cf0\i\hich\af5\dbch\af11\afs24\lang1025\ai\loch\f5\fs24\lang1049 \'cd\'e0\'e7\'e2\'e0\'ed\'e8\'e5;}
+{\s25\sbasedon0\snext25\ql\widctlpar\noline\ltrpar\cf0\hich\af5\dbch\af11\afs20\lang1025\loch\f5\fs20\lang1049 \'d3\'ea\'e0\'e7\'e0\'f2\'e5\'eb\'fc;}
+{\s26\sbasedon0\snext26\ql\widctlpar\tqc\tx4153\tqr\tx8306\ltrpar\cf0\hich\af5\dbch\af5\afs20\lang1025\loch\f5\fs20\lang1049 \'c2\'e5\'f0\'f5\'ed\'e8\'e9 \'ea\'ee\'eb\'ee\'ed\'f2\'e8\'f2\'f3\'eb;}
+{\s27\sbasedon0\snext27\ql\widctlpar\tqc\tx4153\tqr\tx8306\ltrpar\cf0\hich\af5\dbch\af5\afs20\lang1025\loch\f5\fs20\lang1049 \'cd\'e8\'e6\'ed\'e8\'e9 \'ea\'ee\'eb\'ee\'ed\'f2\'e8\'f2\'f3\'eb;}
+{\s28\sbasedon0\snext28\ql\widctlpar\cbpat4\ltrpar\cf0\hich\af5\dbch\af7\afs20\lang1025\loch\f7\fs20\lang1049 \'d1\'f5\'e5\'ec\'e0 \'e4\'ee\'ea\'f3\'ec\'e5\'ed\'f2\'e0;}
+{\s29\sbasedon0\snext29\ql\widctlpar\noline\ltrpar\cf0\hich\af5\dbch\af5\afs20\lang1025\loch\f5\fs20\lang1049 \'d1\'ee\'e4\'e5\'f0\'e6\'e8\'ec\'ee\'e5 \'f2\'e0\'e1\'eb\'e8\'f6\'fb;}
+{\s30\sbasedon29\snext30\qc\widctlpar\noline\ltrpar\cf0\b\hich\af5\dbch\af5\afs20\lang1025\ab\loch\f5\fs20\lang1049 \'c7\'e0\'e3\'ee\'eb\'ee\'e2\'ee\'ea \'f2\'e0\'e1\'eb\'e8\'f6\'fb;}
+}{\*\listtable{\list\listtemplateid1
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'00;}{\levelnumbers;}\fi-432\li432}
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'00;}{\levelnumbers;}\fi-576\li576}
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'00;}{\levelnumbers;}\fi-720\li720}
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'00;}{\levelnumbers;}\fi-864\li864}
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'00;}{\levelnumbers;}\fi-1008\li1008}
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'00;}{\levelnumbers;}\fi-1152\li1152}
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'00;}{\levelnumbers;}\fi-1296\li1296}
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'00;}{\levelnumbers;}\fi-1440\li1440}
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'00;}{\levelnumbers;}\fi-1584\li1584}\listid1}
+}{\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}{\info{\title \'cf\'f0\'e8\'eb\'ee\'e6\'e5\'ed\'e8\'e5}{\author ===}{\creatim\yr2009\mo1\dy18\hr1\min27}{\author ===}{\revtim\yr2009\mo1\dy18\hr1\min27}{\printim\yr0\mo0\dy0\hr0\min0}{\comment LibreOffice}{\vern3400}}\deftab720
+
+{\*\pgdsctbl
+{\pgdsc0\pgdscuse195\pgwsxn11906\pghsxn16838\marglsxn1134\margrsxn1134\margtsxn851\margbsxn567\pgdscnxt0 \u1054\'3f\u1073\'3f\u1099\'3f\u1095\'3f\u1085\'3f\u1099\'3f\u1081\'3f;}
+{\pgdsc1\pgdscuse195\pgndec\pgwsxn11906\pghsxn16838\marglsxn1134\margrsxn1134\margtsxn851\margbsxn567\pgdscnxt0 \u1055\'3f\u1077\'3f\u1088\'3f\u1074\'3f\u1072\'3f\u1103\'3f \u1089\'3f\u1090\'3f\u1088\'3f\u1072\'3f\u1085\'3f\u1080\'3f\u1094\'3f\u1072\'3f;}}
+\formshade{\*\pgdscno0}\paperh16838\paperw11906\margl1134\margr1134\margt851\margb567\sectd\sbknone\sectunlocked1\pgndec\pgwsxn11906\pghsxn16838\marglsxn1134\margrsxn1134\margtsxn851\margbsxn567\ftnbj\ftnstart1\ftnrstcont\ftnnar\aenddoc\aftnrstcont\aftnstart1\aftnnrlc
+\pgndec\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\qr{\dbch\af8\afs14\rtlch \ltrch\loch\fs14\loch\f8
+\'cf\'f0\'e8\'eb\'ee\'e6\'e5\'ed\'e8\'e5}
+\par \pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\qr{\dbch\af8\afs14\rtlch \ltrch\loch\fs14\loch\f8
+\'ea}{\hich\af8\dbch\af8\afs14\rtlch \ltrch\loch\fs14\loch\f8
+ }{\dbch\af8\afs14\rtlch \ltrch\loch\fs14\loch\f8
+\'ef\'f0\'e8\'ea\'e0\'e7\'f3}{\hich\af8\dbch\af8\afs14\rtlch \ltrch\loch\fs14\loch\f8
+ }{\dbch\af8\afs14\rtlch \ltrch\loch\fs14\loch\f8
+\'cc\'e8\'ed\'f4\'e8\'ed\'e0}{\hich\af8\dbch\af8\afs14\rtlch \ltrch\loch\fs14\loch\f8
+ }{\dbch\af8\afs14\rtlch \ltrch\loch\fs14\loch\f8
+\'d0\'d4}{\hich\af8\dbch\af8\afs14\rtlch \ltrch\loch\fs14\loch\f8
+ }{\dbch\af8\afs14\rtlch \ltrch\loch\fs14\loch\f8
+\'ee\'f2}{\hich\af8\dbch\af8\afs14\rtlch \ltrch\loch\fs14\loch\f8
+ }{\dbch\af8\afs14\rtlch \ltrch\loch\fs14\loch\f8
+22}{\hich\af8\dbch\af8\afs14\rtlch \ltrch\loch\fs14\loch\f8
+ }{\dbch\af8\afs14\rtlch \ltrch\loch\fs14\loch\f8
+\'e8\'fe\'eb\'ff}{\hich\af8\dbch\af8\afs14\rtlch \ltrch\loch\fs14\loch\f8
+ }{\dbch\af8\afs14\rtlch \ltrch\loch\fs14\loch\f8
+2003}{\hich\af8\dbch\af8\afs14\rtlch \ltrch\loch\fs14\loch\f8
+ }{\dbch\af8\afs14\rtlch \ltrch\loch\fs14\loch\f8
+\'e3.}{\hich\af8\dbch\af8\afs14\rtlch \ltrch\loch\fs14\loch\f8
+ \'b9 }{\dbch\af8\afs14\rtlch \ltrch\loch\fs14\loch\f8
+67\'ed}
+\par \pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\qr{\dbch\af8\afs14\rtlch \ltrch\loch\fs14\loch\f8
+(\'f1}{\hich\af8\dbch\af8\afs14\rtlch \ltrch\loch\fs14\loch\f8
+ }{\dbch\af8\afs14\rtlch \ltrch\loch\fs14\loch\f8
+\'f3\'f7\'e5\'f2\'ee\'ec}{\hich\af8\dbch\af8\afs14\rtlch \ltrch\loch\fs14\loch\f8
+ }{\dbch\af8\afs14\rtlch \ltrch\loch\fs14\loch\f8
+\'ef\'f0\'e8\'ea\'e0\'e7\'e0}{\hich\af8\dbch\af8\afs14\rtlch \ltrch\loch\fs14\loch\f8
+ }{\dbch\af8\afs14\rtlch \ltrch\loch\fs14\loch\f8
+\'c3\'ee\'f1\'ea\'ee\'ec\'f1\'f2\'e0\'f2\'e0}{\hich\af8\dbch\af8\afs14\rtlch \ltrch\loch\fs14\loch\f8
+ }{\dbch\af8\afs14\rtlch \ltrch\loch\fs14\loch\f8
+\'d0\'d4}{\hich\af8\dbch\af8\afs14\rtlch \ltrch\loch\fs14\loch\f8
+ }{\dbch\af8\afs14\rtlch \ltrch\loch\fs14\loch\f8
+\'e8}{\hich\af8\dbch\af8\afs14\rtlch \ltrch\loch\fs14\loch\f8
+ }{\dbch\af8\afs14\rtlch \ltrch\loch\fs14\loch\f8
+\'cc\'e8\'ed\'f4\'e8\'ed\'e0}{\hich\af8\dbch\af8\afs14\rtlch \ltrch\loch\fs14\loch\f8
+ }{\dbch\af8\afs14\rtlch \ltrch\loch\fs14\loch\f8
+\'d0\'d4}
+\par \pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\qr{\dbch\af8\afs14\rtlch \ltrch\loch\fs14\loch\f8
+\'ee\'f2}{\hich\af8\dbch\af8\afs14\rtlch \ltrch\loch\fs14\loch\f8
+ }{\dbch\af8\afs14\rtlch \ltrch\loch\fs14\loch\f8
+14}{\hich\af8\dbch\af8\afs14\rtlch \ltrch\loch\fs14\loch\f8
+ }{\dbch\af8\afs14\rtlch \ltrch\loch\fs14\loch\f8
+\'ed\'ee\'ff\'e1\'f0\'ff}{\hich\af8\dbch\af8\afs14\rtlch \ltrch\loch\fs14\loch\f8
+ }{\dbch\af8\afs14\rtlch \ltrch\loch\fs14\loch\f8
+2003}{\hich\af8\dbch\af8\afs14\rtlch \ltrch\loch\fs14\loch\f8
+ }{\dbch\af8\afs14\rtlch \ltrch\loch\fs14\loch\f8
+\'e3.}{\hich\af8\dbch\af8\afs14\rtlch \ltrch\loch\fs14\loch\f8
+ \'b9 }{\dbch\af8\afs14\rtlch \ltrch\loch\fs14\loch\f8
+475/102\'ed)}
+\par \pard\plain \s1\ilvl0\outlinelevel0\qc\widctlpar\li0\ri2408\lin0\rin2408\fi0\keepn\ltrpar\cf0\b\hich\af5\dbch\af5\afs24\lang1025\ab\loch\f5\fs24\lang1033{\listtext\pard\plain  \tab}\ls1 \li432\ri2408\lin432\rin2408\fi-432\li0\ri2408\lin0\rin2408\fi0{{\field{\*\fldinst HYPERLINK "http://blanker.ru/" }\*\cs20\cf2\ul\ulc0\cf3\ulnone\ulc0\dbch\af8{\fldrslt \cf2\ul\ulc0\rtlch \ltrch\loch\lang1049\loch\f8
+\'c1\'f3\'f5\'e3\'e0\'eb\'f2\'e5\'f0\'f1\'ea\'e8\'e9}{\*\cs20\cf2\ul\ulc0\cf3\ulnone\ulc0\hich\af8\dbch\af8{\fldrslt \cf2\ul\ulc0\rtlch \ltrch\loch\lang1049\loch\f8
+ }{\*\cs20\cf2\ul\ulc0\cf3\ulnone\ulc0\dbch\af8{\fldrslt \cf2\ul\ulc0\rtlch \ltrch\loch\lang1049\loch\f8
+\'e1\'e0\'eb\'e0\'ed\'f1}}}
+\par \trowd\trql\ltrrow\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clvertalb\cellx2120\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx4521\clvertalb\cellx4805\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx5370\clvertalb\cellx7298\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrr\brdrs\brdrw10\brdrcf1\clvertalc\cellx9618\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qr\li0\ri57\lin0\rin57\fi0{\b\dbch\af8\ab\rtlch \ltrch\loch\loch\f8
+\'ed\'e0}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\b\dbch\af8\ab\rtlch \ltrch\loch\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qr{\b\dbch\af8\ab\rtlch \ltrch\loch\loch\f8
+20}\cell\pard\plain \s26\ql\widctlpar\tqc\tx4153\tqr\tx8306\ltrpar\cf0\hich\af5\dbch\af5\afs20\lang1025\loch\f5\fs20\lang1049\intbl{\b\dbch\af8\ab\rtlch \ltrch\loch\loch\f8
+}\cell\pard\plain \s26\ql\widctlpar\tqc\tx4153\tqr\tx8306\ltrpar\cf0\hich\af5\dbch\af5\afs20\lang1025\loch\f5\fs20\lang1049\intbl{\b\hich\af8\dbch\af8\ab\rtlch \ltrch\loch\f8
+ }{\b\dbch\af8\ab\rtlch \ltrch\loch\loch\f8
+\'e3.}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+\'ca\'ee\'e4\'fb}\cell\row\pard\trowd\trql\ltrrow\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clvertalb\cellx7298\clbrdrt\brdrs\brdrw30\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalc\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qr\li0\ri57\lin0\rin57\fi0{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+\'d4\'ee\'f0\'ec\'e0}{\hich\af8\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+ \'b9 }{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+1}{\hich\af8\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+ }{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+\'ef\'ee}{\hich\af8\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+ }{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+\'ce\'ca\'d3\'c4}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+0710001}\cell\row\pard\trowd\trql\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clvertalb\cellx7298\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx8007\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx8807\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qr\li0\ri57\lin0\rin57\fi0{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+\'c4\'e0\'f2\'e0}{\hich\af8\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+ }{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+(\'e3\'ee\'e4,}{\hich\af8\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+ }{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+\'ec\'e5\'f1\'ff\'f6,}{\hich\af8\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+ }{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+\'f7\'e8\'f1\'eb\'ee)}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+}\cell\row\pard\trowd\trql\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clvertalb\cellx1200\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx6307\clvertalb\cellx7298\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+\'ce\'f0\'e3\'e0\'ed\'e8\'e7\'e0\'f6\'e8\'ff}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qr\li0\ri57\lin0\rin57\fi0{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+\'ef\'ee}{\hich\af8\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+ }{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+\'ce\'ca\'cf\'ce}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+}\cell\row\pard\trowd\trql\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clvertalb\cellx7298\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\tqr\tx7251{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+\'c8\'e4\'e5\'ed\'f2\'e8\'f4\'e8\'ea\'e0\'f6\'e8\'ee\'ed\'ed\'fb\'e9}{\hich\af8\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+ }{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+\'ed\'ee\'ec\'e5\'f0}{\hich\af8\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+ }{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+\'ed\'e0\'eb\'ee\'e3\'ee\'ef\'eb\'e0\'f2\'e5\'eb\'fc\'f9\'e8\'ea\'e0\tab \'c8\'cd\'cd}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+}\cell\row\pard\trowd\trql\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clvertalb\cellx1674\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx6307\clvertalb\cellx7298\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+\'c2\'e8\'e4}{\hich\af8\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+ }{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+\'e4\'e5\'ff\'f2\'e5\'eb\'fc\'ed\'ee\'f1\'f2\'e8}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qr\li0\ri57\lin0\rin57\fi0{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+\'ef\'ee}{\hich\af8\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+ }{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+\'ce\'ca\'c2\'dd\'c4}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+}\cell\row\pard\trowd\trql\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clvertalb\cellx4842\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx7066\clvertalb\cellx7298\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvmgf\clvertalb\cellx8452\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvmgf\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+\'ce\'f0\'e3\'e0\'ed\'e8\'e7\'e0\'f6\'e8\'ee\'ed\'ed\'ee-\'ef\'f0\'e0\'e2\'ee\'e2\'e0\'ff}{\hich\af8\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+ }{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+\'f4\'ee\'f0\'ec\'e0/\'f4\'ee\'f0\'ec\'e0}{\hich\af8\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+ }{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+\'f1\'ee\'e1\'f1\'f2\'e2\'e5\'ed\'ed\'ee\'f1\'f2\'e8}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+}\cell\row\pard\trowd\trql\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx5693\clvertalb\cellx7298\clbrdrt\brdrs\brdrw30\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvmrg\clvertalb\cellx8452\clbrdrt\brdrs\brdrw30\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvmrg\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc\li57\ri0\lin57\rin0\fi0{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qr\li0\ri57\lin0\rin57\fi0{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+\'ef\'ee}{\hich\af8\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+ }{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+\'ce\'ca\'ce\'cf\'d4/\'ce\'ca\'d4\'d1}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+}\cell\row\pard\trowd\trql\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clvertalb\cellx7298\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw30\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\tqr\tx7251{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+\'c5\'e4\'e8\'ed\'e8\'f6\'e0}{\hich\af8\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+ }{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+\'e8\'e7\'ec\'e5\'f0\'e5\'ed\'e8\'ff:}{\hich\af8\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+ }{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+\'f2\'fb\'f1.}{\hich\af8\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+ }{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+\'f0\'f3\'e1./\'ec\'eb\'ed.}{\hich\af8\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+ }{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+\'f0\'f3\'e1.}{\hich\af8\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+ }{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+(\'ed\'e5\'ed\'f3\'e6\'ed\'ee\'e5}{\hich\af8\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+ }{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+\'e7\'e0\'f7\'e5\'f0\'ea\'ed\'f3\'f2\'fc)\tab }{\hich\af8\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+ }{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+\'ef\'ee}{\hich\af8\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+ }{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+\'ce\'ca\'c5\'c8}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+384/385}\cell\row\pard\trowd\trql\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clvertalb\cellx2302\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx7130\clvertalb\cellx7298\clvertalb\cellx9608\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+\'cc\'e5\'f1\'f2\'ee\'ed\'e0\'f5\'ee\'e6\'e4\'e5\'ed\'e8\'e5}{\hich\af8\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+ }{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+(\'e0\'e4\'f0\'e5\'f1)}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+}\cell\row\pard\trowd\trql\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx7130\clvertalb\cellx7298\clvertalb\cellx9608\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc\li57\ri0\lin57\rin0\fi0{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc\li57\ri0\lin57\rin0\fi0{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+}\cell\row\pard\trowd\trql\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clvertalb\cellx7298\clbrdrt\brdrs\brdrw30\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s26\ql\widctlpar\tqc\tx4153\tqr\tx8306\ltrpar\cf0\hich\af5\dbch\af5\afs20\lang1025\loch\f5\fs20\lang1049\intbl\tx4820{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+\tab \'c4\'e0\'f2\'e0}{\hich\af8\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+ }{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+\'f3\'f2\'e2\'e5\'f0\'e6\'e4\'e5\'ed\'e8\'ff}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+}\cell\row\pard\trowd\trql\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clvertalb\cellx7298\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw30\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s26\ql\widctlpar\tqc\tx4153\tqr\tx8306\ltrpar\cf0\hich\af5\dbch\af5\afs20\lang1025\loch\f5\fs20\lang1049\intbl\tx4820{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+\tab \'c4\'e0\'f2\'e0}{\hich\af8\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+ }{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+\'ee\'f2\'ef\'f0\'e0\'e2\'ea\'e8}{\hich\af8\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+ }{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+(\'ef\'f0\'e8\'ed\'ff\'f2\'e8\'ff)}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+}\cell\row\pard\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+}
+\par \trowd\trqc\ltrrow\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalt\cellx5378\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalt\cellx6154\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalt\cellx7885\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clbrdrr\brdrs\brdrw10\brdrcf1\clvertalt\cellx9618\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+\'c0\'ea\'f2\'e8\'e2}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+\'ca\'ee\'e4}{\hich\af8\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+ }{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+\'ef\'ee-\line \'ea\'e0\'e7\'e0\'f2\'e5\'eb\'ff}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+\'cd\'e0}{\hich\af8\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+ }{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+\'ed\'e0\'f7\'e0\'eb\'ee}{\hich\af8\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+ }{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+\'ee\'f2\'f7\'e5\'f2\'ed\'ee\'e3\'ee}{\hich\af8\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+ }{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+\'e3\'ee\'e4\'e0}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+\'cd\'e0}{\hich\af8\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+ }{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+\'ea\'ee\'ed\'e5\'f6}{\hich\af8\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+ }{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+\'ee\'f2\'f7\'e5\'f2-\line \'ed\'ee\'e3\'ee}{\hich\af8\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+ }{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+\'ef\'e5\'f0\'e8\'ee\'e4\'e0}\cell\row\pard\trowd\trqc\ltrrow\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalc\cellx5378\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw30\brdrcf1\clvertalc\cellx6154\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw30\brdrcf1\clvertalc\cellx7885\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw30\brdrcf1\clbrdrr\brdrs\brdrw10\brdrcf1\clvertalc\cellx9618\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+1}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+2}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+3}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+4}\cell\row\pard\trowd\trqc\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx5378\clbrdrt\brdrs\brdrw30\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx6154\clbrdrt\brdrs\brdrw30\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx7885\clbrdrt\brdrs\brdrw30\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\b\dbch\af8\ab\rtlch \ltrch\loch\loch\f8
+I.}{\b\hich\af8\dbch\af8\ab\rtlch \ltrch\loch\loch\f8
+ }{\b\dbch\af8\ab\rtlch \ltrch\loch\loch\f8
+\'c2\'cd\'c5\'ce\'c1\'ce\'d0\'ce\'d2\'cd\'db\'c5}{\b\hich\af8\dbch\af8\ab\rtlch \ltrch\loch\loch\f8
+ }{\b\dbch\af8\ab\rtlch \ltrch\loch\loch\f8
+\'c0\'ca\'d2\'c8\'c2\'db}
+\par \pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\li57\ri0\lin57\rin0\fi0{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'cd\'e5\'ec\'e0\'f2\'e5\'f0\'e8\'e0\'eb\'fc\'ed\'fb\'e5}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e0\'ea\'f2\'e8\'e2\'fb}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+110}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\row\pard\trowd\trqc\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx5378\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx6154\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx7885\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\li57\ri0\lin57\rin0\fi0{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ce\'f1\'ed\'ee\'e2\'ed\'fb\'e5}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'f1\'f0\'e5\'e4\'f1\'f2\'e2\'e0}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+120}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\row\pard\trowd\trqc\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx5378\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx6154\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx7885\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\li57\ri0\lin57\rin0\fi0{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'cd\'e5\'e7\'e0\'e2\'e5\'f0\'f8\'e5\'ed\'ed\'ee\'e5}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'f1\'f2\'f0\'ee\'e8\'f2\'e5\'eb\'fc\'f1\'f2\'e2\'ee}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+130}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\row\pard\trowd\trqc\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx5378\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx6154\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx7885\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\li57\ri0\lin57\rin0\fi0{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'c4\'ee\'f5\'ee\'e4\'ed\'fb\'e5}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e2\'eb\'ee\'e6\'e5\'ed\'e8\'ff}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e2}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ec\'e0\'f2\'e5\'f0\'e8\'e0\'eb\'fc\'ed\'fb\'e5}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'f6\'e5\'ed\'ed\'ee\'f1\'f2\'e8}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+135}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\row\pard\trowd\trqc\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx5378\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx6154\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx7885\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\li57\ri0\lin57\rin0\fi0{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'c4\'ee\'eb\'e3\'ee\'f1\'f0\'ee\'f7\'ed\'fb\'e5}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'f4\'e8\'ed\'e0\'ed\'f1\'ee\'e2\'fb\'e5}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e2\'eb\'ee\'e6\'e5\'ed\'e8\'ff}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+140}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\row\pard\trowd\trqc\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx5378\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx6154\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx7885\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\li57\ri0\lin57\rin0\fi0{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ce\'f2\'eb\'ee\'e6\'e5\'ed\'ed\'fb\'e5}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ed\'e0\'eb\'ee\'e3\'ee\'e2\'fb\'e5}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e0\'ea\'f2\'e8\'e2\'fb}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+145}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\row\pard\trowd\trqc\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw30\brdrcf1\clvertalb\cellx5378\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw30\brdrcf1\clvertalb\cellx6154\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw30\brdrcf1\clvertalb\cellx7885\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw30\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\li57\ri0\lin57\rin0\fi0{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'cf\'f0\'ee\'f7\'e8\'e5}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e2\'ed\'e5\'ee\'e1\'ee\'f0\'ee\'f2\'ed\'fb\'e5}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e0\'ea\'f2\'e8\'e2\'fb}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+150}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\row\pard\trowd\trqc\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw30\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx5378\clbrdrt\brdrs\brdrw30\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw30\brdrcf1\clvertalb\cellx6154\clbrdrt\brdrs\brdrw30\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw30\brdrcf1\clvertalb\cellx7885\clbrdrt\brdrs\brdrw30\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw30\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\li57\ri0\lin57\rin0\fi0{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'c8\'f2\'ee\'e3\'ee}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ef\'ee}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'f0\'e0\'e7\'e4\'e5\'eb\'f3}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+I}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+190}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\row\pard\trowd\trqc\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx5378\clbrdrt\brdrs\brdrw30\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx6154\clbrdrt\brdrs\brdrw30\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx7885\clbrdrt\brdrs\brdrw30\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\b\dbch\af8\ab\rtlch \ltrch\loch\loch\f8
+II.}{\b\hich\af8\dbch\af8\ab\rtlch \ltrch\loch\loch\f8
+ }{\b\dbch\af8\ab\rtlch \ltrch\loch\loch\f8
+\'ce\'c1\'ce\'d0\'ce\'d2\'cd\'db\'c5}{\b\hich\af8\dbch\af8\ab\rtlch \ltrch\loch\loch\f8
+ }{\b\dbch\af8\ab\rtlch \ltrch\loch\loch\f8
+\'c0\'ca\'d2\'c8\'c2\'db}
+\par \pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\li57\ri0\lin57\rin0\fi0{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'c7\'e0\'ef\'e0\'f1\'fb}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+210}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\row\pard\trowd\trqc\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx5378\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx6154\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx7885\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\li397\ri0\lin397\rin0\fi0{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e2}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'f2\'ee\'ec}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'f7\'e8\'f1\'eb\'e5:}
+\par \pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\li227\ri0\lin227\rin0\fi0{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'f1\'fb\'f0\'fc\'e5,}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ec\'e0\'f2\'e5\'f0\'e8\'e0\'eb\'fb}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e8}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e4\'f0\'f3\'e3\'e8\'e5}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e0\'ed\'e0\'eb\'ee\'e3\'e8\'f7\'ed\'fb\'e5}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'f6\'e5\'ed\'ed\'ee\'f1\'f2\'e8}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+211}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\row\pard\trowd\trqc\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx5378\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx6154\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx7885\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\li227\ri0\lin227\rin0\fi0{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e6\'e8\'e2\'ee\'f2\'ed\'fb\'e5}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ed\'e0}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e2\'fb\'f0\'e0\'f9\'e8\'e2\'e0\'ed\'e8\'e8}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e8}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ee\'f2\'ea\'ee\'f0\'ec\'e5}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+212}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\row\pard\trowd\trqc\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx5378\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx6154\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx7885\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\li227\ri0\lin227\rin0\fi0{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e7\'e0\'f2\'f0\'e0\'f2\'fb}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e2}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ed\'e5\'e7\'e0\'e2\'e5\'f0\'f8\'e5\'ed\'ed\'ee\'ec}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ef\'f0\'ee\'e8\'e7\'e2\'ee\'e4\'f1\'f2\'e2\'e5}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+213}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\row\pard\trowd\trqc\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx5378\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx6154\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx7885\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\li227\ri0\lin227\rin0\fi0{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e3\'ee\'f2\'ee\'e2\'e0\'ff}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ef\'f0\'ee\'e4\'f3\'ea\'f6\'e8\'ff}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e8}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'f2\'ee\'e2\'e0\'f0\'fb}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e4\'eb\'ff}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ef\'e5\'f0\'e5\'ef\'f0\'ee\'e4\'e0\'e6\'e8}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+214}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\row\pard\trowd\trqc\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx5378\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx6154\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx7885\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\li227\ri0\lin227\rin0\fi0{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'f2\'ee\'e2\'e0\'f0\'fb}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ee\'f2\'e3\'f0\'f3\'e6\'e5\'ed\'ed\'fb\'e5}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+215}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\row\pard\trowd\trqc\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx5378\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx6154\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx7885\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\li227\ri0\lin227\rin0\fi0{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'f0\'e0\'f1\'f5\'ee\'e4\'fb}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e1\'f3\'e4\'f3\'f9\'e8\'f5}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ef\'e5\'f0\'e8\'ee\'e4\'ee\'e2}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+216}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\row\pard\trowd\trqc\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx5378\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx6154\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx7885\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\li227\ri0\lin227\rin0\fi0{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ef\'f0\'ee\'f7\'e8\'e5}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e7\'e0\'ef\'e0\'f1\'fb}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e8}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e7\'e0\'f2\'f0\'e0\'f2\'fb}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+217}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\row\pard\trowd\trqc\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx5378\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx6154\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx7885\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\li57\ri0\lin57\rin0\fi0{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'cd\'e0\'eb\'ee\'e3}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ed\'e0}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e4\'ee\'e1\'e0\'e2\'eb\'e5\'ed\'ed\'f3\'fe}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'f1\'f2\'ee\'e8\'ec\'ee\'f1\'f2\'fc}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ef\'ee}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ef\'f0\'e8\'ee\'e1\'f0\'e5\'f2\'e5\'ed\'ed\'fb\'ec}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'f6\'e5\'ed\'ed\'ee\'f1\'f2\'ff\'ec}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+220}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\row\pard\trowd\trqc\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx5378\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx6154\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx7885\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\li57\ri0\lin57\rin0\fi0{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'c4\'e5\'e1\'e8\'f2\'ee\'f0\'f1\'ea\'e0\'ff}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e7\'e0\'e4\'ee\'eb\'e6\'e5\'ed\'ed\'ee\'f1\'f2\'fc}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+(\'ef\'eb\'e0\'f2\'e5\'e6\'e8}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ef\'ee}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ea\'ee\'f2\'ee\'f0\'ee\'e9}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ee\'e6\'e8\'e4\'e0\'fe\'f2\'f1\'ff}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e1\'ee\'eb\'e5\'e5}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'f7\'e5\'ec}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'f7\'e5\'f0\'e5\'e7}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+12}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ec\'e5\'f1\'ff\'f6\'e5\'e2}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ef\'ee\'f1\'eb\'e5}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\line \'ee\'f2\'f7\'e5\'f2\'ed\'ee\'e9}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e4\'e0\'f2\'fb)}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+230}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\row\pard\trowd\trqc\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx5378\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx6154\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx7885\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\li227\ri0\lin227\rin0\fi0{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e2}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'f2\'ee\'ec}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'f7\'e8\'f1\'eb\'e5}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ef\'ee\'ea\'f3\'ef\'e0\'f2\'e5\'eb\'e8}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e8}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e7\'e0\'ea\'e0\'e7\'f7\'e8\'ea\'e8}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+231}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\row\pard\trowd\trqc\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx5378\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx6154\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx7885\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\li57\ri0\lin57\rin0\fi0{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'c4\'e5\'e1\'e8\'f2\'ee\'f0\'f1\'ea\'e0\'ff}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e7\'e0\'e4\'ee\'eb\'e6\'e5\'ed\'ed\'ee\'f1\'f2\'fc}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+(\'ef\'eb\'e0\'f2\'e5\'e6\'e8}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ef\'ee}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ea\'ee\'f2\'ee\'f0\'ee\'e9}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ee\'e6\'e8\'e4\'e0\'fe\'f2\'f1\'ff}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e2}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'f2\'e5\'f7\'e5\'ed\'e8\'e5}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+12}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ec\'e5\'f1\'ff\'f6\'e5\'e2}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ef\'ee\'f1\'eb\'e5}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ee\'f2\'f7\'e5\'f2\'ed\'ee\'e9}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\line \'e4\'e0\'f2\'fb)}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+240}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\row\pard\trowd\trqc\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx5378\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx6154\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx7885\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\li227\ri0\lin227\rin0\fi0{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e2}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'f2\'ee\'ec}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'f7\'e8\'f1\'eb\'e5}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ef\'ee\'ea\'f3\'ef\'e0\'f2\'e5\'eb\'e8}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e8}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e7\'e0\'ea\'e0\'e7\'f7\'e8\'ea\'e8}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+241}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\row\pard\trowd\trqc\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx5378\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx6154\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx7885\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\li57\ri0\lin57\rin0\fi0{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ca\'f0\'e0\'f2\'ea\'ee\'f1\'f0\'ee\'f7\'ed\'fb\'e5}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'f4\'e8\'ed\'e0\'ed\'f1\'ee\'e2\'fb\'e5}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e2\'eb\'ee\'e6\'e5\'ed\'e8\'ff}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+250}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\row\pard\trowd\trqc\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx5378\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx6154\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx7885\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\li57\ri0\lin57\rin0\fi0{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'c4\'e5\'ed\'e5\'e6\'ed\'fb\'e5}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'f1\'f0\'e5\'e4\'f1\'f2\'e2\'e0}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+260}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\row\pard\trowd\trqc\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw30\brdrcf1\clvertalb\cellx5378\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw30\brdrcf1\clvertalb\cellx6154\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw30\brdrcf1\clvertalb\cellx7885\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw30\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\li57\ri0\lin57\rin0\fi0{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'cf\'f0\'ee\'f7\'e8\'e5}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ee\'e1\'ee\'f0\'ee\'f2\'ed\'fb\'e5}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e0\'ea\'f2\'e8\'e2\'fb}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+270}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\row\pard\trowd\trqc\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw30\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx5378\clbrdrt\brdrs\brdrw30\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw30\brdrcf1\clvertalb\cellx6154\clbrdrt\brdrs\brdrw30\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw30\brdrcf1\clvertalb\cellx7885\clbrdrt\brdrs\brdrw30\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw30\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\li57\ri0\lin57\rin0\fi0{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'c8\'f2\'ee\'e3\'ee}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ef\'ee}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'f0\'e0\'e7\'e4\'e5\'eb\'f3}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+II}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+290}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\row\pard\trowd\trqc\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx5378\clbrdrt\brdrs\brdrw30\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw30\brdrcf1\clvertalb\cellx6154\clbrdrt\brdrs\brdrw30\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw30\brdrcf1\clvertalb\cellx7885\clbrdrt\brdrs\brdrw30\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw30\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s2\ilvl1\outlinelevel1\ql\widctlpar\li57\ri0\lin57\rin0\fi0\keepn\ltrpar\cf0\b\hich\af5\dbch\af5\afs20\lang1025\ab\loch\f5\fs20\lang1033\intbl{\listtext\pard\plain  \tab}\ls1 \li633\ri0\lin633\rin0\fi-576\li57\ri0\lin57\rin0\fi0{\dbch\af8\rtlch \ltrch\loch\lang1049\loch\f8
+\'c1\'c0\'cb\'c0\'cd\'d1}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+300}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\row\pard\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\pagebb\qr{\dbch\af8\afs16\rtlch \ltrch\loch\fs16\loch\f8
+\'d4\'ee\'f0\'ec\'e0}{\hich\af8\dbch\af8\afs16\rtlch \ltrch\loch\fs16\loch\f8
+ }{\dbch\af8\afs16\rtlch \ltrch\loch\fs16\loch\f8
+0710001}{\hich\af8\dbch\af8\afs16\rtlch \ltrch\loch\fs16\loch\f8
+ }{\dbch\af8\afs16\rtlch \ltrch\loch\fs16\loch\f8
+\'f1.}{\hich\af8\dbch\af8\afs16\rtlch \ltrch\loch\fs16\loch\f8
+ }{\dbch\af8\afs16\rtlch \ltrch\loch\fs16\loch\f8
+2}
+\par \trowd\trqc\ltrrow\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalt\cellx5387\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalt\cellx6154\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalt\cellx7885\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clbrdrr\brdrs\brdrw10\brdrcf1\clvertalt\cellx9618\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+\'cf\'e0\'f1\'f1\'e8\'e2}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+\'ca\'ee\'e4}{\hich\af8\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+ }{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+\'ef\'ee-\line \'ea\'e0\'e7\'e0\'f2\'e5\'eb\'ff}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+\'cd\'e0}{\hich\af8\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+ }{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+\'ed\'e0\'f7\'e0\'eb\'ee}{\hich\af8\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+ }{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+\line \'ee\'f2\'f7\'e5\'f2\'ed\'ee\'e3\'ee}{\hich\af8\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+ }{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+\'ef\'e5\'f0\'e8\'ee\'e4\'e0}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+\'cd\'e0}{\hich\af8\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+ }{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+\'ea\'ee\'ed\'e5\'f6}{\hich\af8\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+ }{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+\'ee\'f2\'f7\'e5\'f2-\line \'ed\'ee\'e3\'ee}{\hich\af8\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+ }{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+\'ef\'e5\'f0\'e8\'ee\'e4\'e0}\cell\row\pard\trowd\trqc\ltrrow\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalc\cellx5387\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw30\brdrcf1\clvertalc\cellx6154\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw30\brdrcf1\clvertalc\cellx7885\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw30\brdrcf1\clbrdrr\brdrs\brdrw10\brdrcf1\clvertalc\cellx9618\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+1}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+2}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+3}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+4}\cell\row\pard\trowd\trqc\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx5387\clbrdrt\brdrs\brdrw30\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx6154\clbrdrt\brdrs\brdrw30\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx7885\clbrdrt\brdrs\brdrw30\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\b\dbch\af8\ab\rtlch \ltrch\loch\loch\f8
+III.}{\b\hich\af8\dbch\af8\ab\rtlch \ltrch\loch\loch\f8
+ }{\b\dbch\af8\ab\rtlch \ltrch\loch\loch\f8
+\'ca\'c0\'cf\'c8\'d2\'c0\'cb}{\b\hich\af8\dbch\af8\ab\rtlch \ltrch\loch\loch\f8
+ }{\b\dbch\af8\ab\rtlch \ltrch\loch\loch\f8
+\'c8}{\b\hich\af8\dbch\af8\ab\rtlch \ltrch\loch\loch\f8
+ }{\b\dbch\af8\ab\rtlch \ltrch\loch\loch\f8
+\'d0\'c5\'c7\'c5\'d0\'c2\'db}
+\par \pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\li57\ri0\lin57\rin0\fi0{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'d3\'f1\'f2\'e0\'e2\'ed\'fb\'e9}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ea\'e0\'ef\'e8\'f2\'e0\'eb}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+410}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\row\pard\trowd\trqc\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx5387\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx6154\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx7885\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\li57\ri0\lin57\rin0\fi0{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'d1\'ee\'e1\'f1\'f2\'e2\'e5\'ed\'ed\'fb\'e5}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e0\'ea\'f6\'e8\'e8,}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e2\'fb\'ea\'f3\'ef\'eb\'e5\'ed\'ed\'fb\'e5}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'f3}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e0\'ea\'f6\'e8\'ee\'ed\'e5\'f0\'ee\'e2}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+411}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+()}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+()}\cell\row\pard\trowd\trqc\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx5387\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx6154\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx7885\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\li57\ri0\lin57\rin0\fi0{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'c4\'ee\'e1\'e0\'e2\'ee\'f7\'ed\'fb\'e9}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ea\'e0\'ef\'e8\'f2\'e0\'eb}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+420}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\row\pard\trowd\trqc\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx5387\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx6154\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx7885\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\li57\ri0\lin57\rin0\fi0{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'d0\'e5\'e7\'e5\'f0\'e2\'ed\'fb\'e9}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ea\'e0\'ef\'e8\'f2\'e0\'eb}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+430}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\row\pard\trowd\trqc\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx5387\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx6154\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx7885\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\li397\ri0\lin397\rin0\fi0{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e2}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'f2\'ee\'ec}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'f7\'e8\'f1\'eb\'e5:}
+\par \pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\li227\ri0\lin227\rin0\fi0{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'f0\'e5\'e7\'e5\'f0\'e2\'fb,}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ee\'e1\'f0\'e0\'e7\'ee\'e2\'e0\'ed\'ed\'fb\'e5}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e2}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'f1\'ee\'ee\'f2\'e2\'e5\'f2\'f1\'f2\'e2\'e8\'e8}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\line \'f1}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e7\'e0\'ea\'ee\'ed\'ee\'e4\'e0\'f2\'e5\'eb\'fc\'f1\'f2\'e2\'ee\'ec}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+431}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\row\pard\trowd\trqc\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx5387\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx6154\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx7885\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\li227\ri0\lin227\rin0\fi0{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'f0\'e5\'e7\'e5\'f0\'e2\'fb,}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ee\'e1\'f0\'e0\'e7\'ee\'e2\'e0\'ed\'ed\'fb\'e5}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e2}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'f1\'ee\'ee\'f2\'e2\'e5\'f2\'f1\'f2\'e2\'e8\'e8}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\line \'f1}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'f3\'f7\'f0\'e5\'e4\'e8\'f2\'e5\'eb\'fc\'ed\'fb\'ec\'e8}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e4\'ee\'ea\'f3\'ec\'e5\'ed\'f2\'e0\'ec\'e8}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+432}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\row\pard\trowd\trqc\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw30\brdrcf1\clvertalb\cellx5387\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw30\brdrcf1\clvertalb\cellx6154\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw30\brdrcf1\clvertalb\cellx7885\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw30\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\li57\ri0\lin57\rin0\fi0{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'cd\'e5\'f0\'e0\'f1\'ef\'f0\'e5\'e4\'e5\'eb\'e5\'ed\'ed\'e0\'ff}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ef\'f0\'e8\'e1\'fb\'eb\'fc}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+(\'ed\'e5\'ef\'ee\'ea\'f0\'fb\'f2\'fb\'e9}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'f3\'e1\'fb\'f2\'ee\'ea)}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+470}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\row\pard\trowd\trqc\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw30\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx5387\clbrdrt\brdrs\brdrw30\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw30\brdrcf1\clvertalb\cellx6154\clbrdrt\brdrs\brdrw30\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw30\brdrcf1\clvertalb\cellx7885\clbrdrt\brdrs\brdrw30\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw30\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\li57\ri0\lin57\rin0\fi0{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'c8\'f2\'ee\'e3\'ee}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ef\'ee}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'f0\'e0\'e7\'e4\'e5\'eb\'f3}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+III}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+490}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\row\pard\trowd\trqc\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx5387\clbrdrt\brdrs\brdrw30\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx6154\clbrdrt\brdrs\brdrw30\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx7885\clbrdrt\brdrs\brdrw30\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\b\dbch\af8\ab\rtlch \ltrch\loch\loch\f8
+IV.}{\b\hich\af8\dbch\af8\ab\rtlch \ltrch\loch\loch\f8
+ }{\b\dbch\af8\ab\rtlch \ltrch\loch\loch\f8
+\'c4\'ce\'cb\'c3\'ce\'d1\'d0\'ce\'d7\'cd\'db\'c5}{\b\hich\af8\dbch\af8\ab\rtlch \ltrch\loch\loch\f8
+ }{\b\dbch\af8\ab\rtlch \ltrch\loch\loch\f8
+\'ce\'c1\'df\'c7\'c0\'d2\'c5\'cb\'dc\'d1\'d2\'c2\'c0}
+\par \pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\li57\ri0\lin57\rin0\fi0{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'c7\'e0\'e9\'ec\'fb}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e8}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ea\'f0\'e5\'e4\'e8\'f2\'fb}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+510}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\row\pard\trowd\trqc\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx5387\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx6154\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx7885\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\li57\ri0\lin57\rin0\fi0{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ce\'f2\'eb\'ee\'e6\'e5\'ed\'ed\'fb\'e5}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ed\'e0\'eb\'ee\'e3\'ee\'e2\'fb\'e5}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ee\'e1\'ff\'e7\'e0\'f2\'e5\'eb\'fc\'f1\'f2\'e2\'e0}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+515}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\row\pard\trowd\trqc\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw30\brdrcf1\clvertalb\cellx5387\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw30\brdrcf1\clvertalb\cellx6154\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw30\brdrcf1\clvertalb\cellx7885\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw30\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\li57\ri0\lin57\rin0\fi0{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'cf\'f0\'ee\'f7\'e8\'e5}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e4\'ee\'eb\'e3\'ee\'f1\'f0\'ee\'f7\'ed\'fb\'e5}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ee\'e1\'ff\'e7\'e0\'f2\'e5\'eb\'fc\'f1\'f2\'e2\'e0}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+520}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\row\pard\trowd\trqc\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw30\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx5387\clbrdrt\brdrs\brdrw30\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw30\brdrcf1\clvertalb\cellx6154\clbrdrt\brdrs\brdrw30\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw30\brdrcf1\clvertalb\cellx7885\clbrdrt\brdrs\brdrw30\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw30\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\li57\ri0\lin57\rin0\fi0{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'c8\'f2\'ee\'e3\'ee}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ef\'ee}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'f0\'e0\'e7\'e4\'e5\'eb\'f3}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+IV}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+590}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\row\pard\trowd\trqc\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx5387\clbrdrt\brdrs\brdrw30\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx6154\clbrdrt\brdrs\brdrw30\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx7885\clbrdrt\brdrs\brdrw30\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\b\dbch\af8\ab\rtlch \ltrch\loch\loch\f8
+V.}{\b\hich\af8\dbch\af8\ab\rtlch \ltrch\loch\loch\f8
+ }{\b\dbch\af8\ab\rtlch \ltrch\loch\loch\f8
+\'ca\'d0\'c0\'d2\'ca\'ce\'d1\'d0\'ce\'d7\'cd\'db\'c5}{\b\hich\af8\dbch\af8\ab\rtlch \ltrch\loch\loch\f8
+ }{\b\dbch\af8\ab\rtlch \ltrch\loch\loch\f8
+\'ce\'c1\'df\'c7\'c0\'d2\'c5\'cb\'dc\'d1\'d2\'c2\'c0}
+\par \pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\li57\ri0\lin57\rin0\fi0{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'c7\'e0\'e9\'ec\'fb}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e8}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ea\'f0\'e5\'e4\'e8\'f2\'fb}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+610}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\row\pard\trowd\trqc\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx5387\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx6154\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx7885\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\li57\ri0\lin57\rin0\fi0{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ca\'f0\'e5\'e4\'e8\'f2\'ee\'f0\'f1\'ea\'e0\'ff}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e7\'e0\'e4\'ee\'eb\'e6\'e5\'ed\'ed\'ee\'f1\'f2\'fc}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+620}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\row\pard\trowd\trqc\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx5387\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx6154\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx7885\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\li397\ri0\lin397\rin0\fi0{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e2}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'f2\'ee\'ec}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'f7\'e8\'f1\'eb\'e5:}
+\par \pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\li227\ri0\lin227\rin0\fi0{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ef\'ee\'f1\'f2\'e0\'e2\'f9\'e8\'ea\'e8}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e8}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ef\'ee\'e4\'f0\'ff\'e4\'f7\'e8\'ea\'e8}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+621}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\row\pard\trowd\trqc\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx5387\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx6154\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx7885\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\li227\ri0\lin227\rin0\fi0{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e7\'e0\'e4\'ee\'eb\'e6\'e5\'ed\'ed\'ee\'f1\'f2\'fc}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ef\'e5\'f0\'e5\'e4}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ef\'e5\'f0\'f1\'ee\'ed\'e0\'eb\'ee\'ec}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ee\'f0\'e3\'e0\'ed\'e8\'e7\'e0\'f6\'e8\'e8}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+622}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\row\pard\trowd\trqc\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx5387\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx6154\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx7885\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\li227\ri0\lin227\rin0\fi0{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e7\'e0\'e4\'ee\'eb\'e6\'e5\'ed\'ed\'ee\'f1\'f2\'fc}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ef\'e5\'f0\'e5\'e4}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e3\'ee\'f1\'f3\'e4\'e0\'f0\'f1\'f2\'e2\'e5\'ed\'ed\'fb\'ec\'e8}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e2\'ed\'e5\'e1\'fe\'e4\'e6\'e5\'f2\'ed\'fb\'ec\'e8}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'f4\'ee\'ed\'e4\'e0\'ec\'e8}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+623}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\row\pard\trowd\trqc\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx5387\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx6154\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx7885\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\li227\ri0\lin227\rin0\fi0{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e7\'e0\'e4\'ee\'eb\'e6\'e5\'ed\'ed\'ee\'f1\'f2\'fc}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ef\'ee}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ed\'e0\'eb\'ee\'e3\'e0\'ec}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e8}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'f1\'e1\'ee\'f0\'e0\'ec}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+624}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\row\pard\trowd\trqc\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx5387\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx6154\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx7885\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\li227\ri0\lin227\rin0\fi0{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ef\'f0\'ee\'f7\'e8\'e5}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ea\'f0\'e5\'e4\'e8\'f2\'ee\'f0\'fb}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+625}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\row\pard\trowd\trqc\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx5387\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx6154\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx7885\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\li57\ri0\lin57\rin0\fi0{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'c7\'e0\'e4\'ee\'eb\'e6\'e5\'ed\'ed\'ee\'f1\'f2\'fc}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ef\'e5\'f0\'e5\'e4}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'f3\'f7\'e0\'f1\'f2\'ed\'e8\'ea\'e0\'ec\'e8}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+(\'f3\'f7\'f0\'e5\'e4\'e8\'f2\'e5\'eb\'ff\'ec\'e8)}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\line \'ef\'ee}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e2\'fb\'ef\'eb\'e0\'f2\'e5}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e4\'ee\'f5\'ee\'e4\'ee\'e2}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+630}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\row\pard\trowd\trqc\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx5387\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx6154\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx7885\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\li57\ri0\lin57\rin0\fi0{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'c4\'ee\'f5\'ee\'e4\'fb}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e1\'f3\'e4\'f3\'f9\'e8\'f5}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ef\'e5\'f0\'e8\'ee\'e4\'ee\'e2}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+640}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\row\pard\trowd\trqc\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx5387\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx6154\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx7885\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\li57\ri0\lin57\rin0\fi0{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'d0\'e5\'e7\'e5\'f0\'e2\'fb}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ef\'f0\'e5\'e4\'f1\'f2\'ee\'ff\'f9\'e8\'f5}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'f0\'e0\'f1\'f5\'ee\'e4\'ee\'e2}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+650}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\row\pard\trowd\trqc\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw30\brdrcf1\clvertalb\cellx5387\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw30\brdrcf1\clvertalb\cellx6154\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw30\brdrcf1\clvertalb\cellx7885\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw30\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\li57\ri0\lin57\rin0\fi0{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'cf\'f0\'ee\'f7\'e8\'e5}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ea\'f0\'e0\'f2\'ea\'ee\'f1\'f0\'ee\'f7\'ed\'fb\'e5}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ee\'e1\'ff\'e7\'e0\'f2\'e5\'eb\'fc\'f1\'f2\'e2\'e0}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+660}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\row\pard\trowd\trqc\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw30\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx5387\clbrdrt\brdrs\brdrw30\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw30\brdrcf1\clvertalb\cellx6154\clbrdrt\brdrs\brdrw30\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw30\brdrcf1\clvertalb\cellx7885\clbrdrt\brdrs\brdrw30\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw30\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\li57\ri0\lin57\rin0\fi0{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'c8\'f2\'ee\'e3\'ee}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ef\'ee}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'f0\'e0\'e7\'e4\'e5\'eb\'f3}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+V}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+690}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\row\pard\trowd\trqc\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx5387\clbrdrt\brdrs\brdrw30\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx6154\clbrdrt\brdrs\brdrw30\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx7885\clbrdrt\brdrs\brdrw30\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\li57\ri0\lin57\rin0\fi0{\b\dbch\af8\ab\rtlch \ltrch\loch\loch\f8
+\'c1\'c0\'cb\'c0\'cd\'d1}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+700}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\row\pard\trowd\trqc\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx5387\clbrdrt\brdrs\brdrw30\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx6154\clbrdrt\brdrs\brdrw30\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx7885\clbrdrt\brdrs\brdrw30\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\b\dbch\af8\ab\rtlch \ltrch\loch\loch\f8
+\'d1\'cf\'d0\'c0\'c2\'ca\'c0}{\b\hich\af8\dbch\af8\ab\rtlch \ltrch\loch\loch\f8
+ }{\b\dbch\af8\ab\rtlch \ltrch\loch\loch\f8
+\'ee}{\b\hich\af8\dbch\af8\ab\rtlch \ltrch\loch\loch\f8
+ }{\b\dbch\af8\ab\rtlch \ltrch\loch\loch\f8
+\'ed\'e0\'eb\'e8\'f7\'e8\'e8}{\b\hich\af8\dbch\af8\ab\rtlch \ltrch\loch\loch\f8
+ }{\b\dbch\af8\ab\rtlch \ltrch\loch\loch\f8
+\'f6\'e5\'ed\'ed\'ee\'f1\'f2\'e5\'e9,\line \'f3\'f7\'e8\'f2\'fb\'e2\'e0\'e5\'ec\'fb\'f5}{\b\hich\af8\dbch\af8\ab\rtlch \ltrch\loch\loch\f8
+ }{\b\dbch\af8\ab\rtlch \ltrch\loch\loch\f8
+\'ed\'e0}{\b\hich\af8\dbch\af8\ab\rtlch \ltrch\loch\loch\f8
+ }{\b\dbch\af8\ab\rtlch \ltrch\loch\loch\f8
+\'e7\'e0\'e1\'e0\'eb\'e0\'ed\'f1\'ee\'e2\'fb\'f5}{\b\hich\af8\dbch\af8\ab\rtlch \ltrch\loch\loch\f8
+ }{\b\dbch\af8\ab\rtlch \ltrch\loch\loch\f8
+\'f1\'f7\'e5\'f2\'e0\'f5}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\row\pard\trowd\trqc\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx5387\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx6154\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx7885\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\li57\ri0\lin57\rin0\fi0{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'c0\'f0\'e5\'ed\'e4\'ee\'e2\'e0\'ed\'ed\'fb\'e5}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ee\'f1\'ed\'ee\'e2\'ed\'fb\'e5}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'f1\'f0\'e5\'e4\'f1\'f2\'e2\'e0}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+910}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\row\pard\trowd\trqc\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx5387\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx6154\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx7885\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\li227\ri0\lin227\rin0\fi0{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e2}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'f2\'ee\'ec}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'f7\'e8\'f1\'eb\'e5}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ef\'ee}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'eb\'e8\'e7\'e8\'ed\'e3\'f3}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+911}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\row\pard\trowd\trqc\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx5387\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx6154\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx7885\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\li57\ri0\lin57\rin0\fi0{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'d2\'ee\'e2\'e0\'f0\'ed\'ee-\'ec\'e0\'f2\'e5\'f0\'e8\'e0\'eb\'fc\'ed\'fb\'e5}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'f6\'e5\'ed\'ed\'ee\'f1\'f2\'e8,}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ef\'f0\'e8\'ed\'ff\'f2\'fb\'e5}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ed\'e0}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ee\'f2\'e2\'e5\'f2\'f1\'f2\'e2\'e5\'ed\'ed\'ee\'e5}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'f5\'f0\'e0\'ed\'e5\'ed\'e8\'e5}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+920}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\row\pard\trowd\trqc\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx5387\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx6154\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx7885\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\li57\ri0\lin57\rin0\fi0{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'d2\'ee\'e2\'e0\'f0\'fb,}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ef\'f0\'e8\'ed\'ff\'f2\'fb\'e5}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ed\'e0}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ea\'ee\'ec\'e8\'f1\'f1\'e8\'fe}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+930}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\row\pard\trowd\trqc\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx5387\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx6154\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx7885\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\li57\ri0\lin57\rin0\fi0{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'d1\'ef\'e8\'f1\'e0\'ed\'ed\'e0\'ff}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e2}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'f3\'e1\'fb\'f2\'ee\'ea}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e7\'e0\'e4\'ee\'eb\'e6\'e5\'ed\'ed\'ee\'f1\'f2\'fc}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ed\'e5\'ef\'eb\'e0\'f2\'e5\'e6\'e5\'f1\'ef\'ee\'f1\'ee\'e1\'ed\'ee\'f1\'f2\'fc}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e4\'e5\'e1\'e8\'f2\'ee\'f0\'ee\'e2}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+940}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\row\pard\trowd\trqc\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx5387\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx6154\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx7885\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\li57\ri0\lin57\rin0\fi0{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ce\'e1\'e5\'f1\'ef\'e5\'f7\'e5\'ed\'e8\'ff}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ee\'e1\'ff\'e7\'e0\'f2\'e5\'eb\'fc\'f1\'f2\'e2}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e8}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ef\'eb\'e0\'f2\'e5\'e6\'e5\'e9}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ef\'ee\'eb\'f3\'f7\'e5\'ed\'ed\'fb\'e5}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+950}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\row\pard\trowd\trqc\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx5387\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx6154\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx7885\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\li57\ri0\lin57\rin0\fi0{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ce\'e1\'e5\'f1\'ef\'e5\'f7\'e5\'ed\'e8\'ff}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ee\'e1\'ff\'e7\'e0\'f2\'e5\'eb\'fc\'f1\'f2\'e2}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e8}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ef\'eb\'e0\'f2\'e5\'e6\'e5\'e9}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e2\'fb\'e4\'e0\'ed\'ed\'fb\'e5}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+960}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\row\pard\trowd\trqc\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx5387\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx6154\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx7885\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\li57\ri0\lin57\rin0\fi0{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'c8\'e7\'ed\'ee\'f1}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e6\'e8\'eb\'e8\'f9\'ed\'ee\'e3\'ee}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'f4\'ee\'ed\'e4\'e0}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+970}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\row\pard\trowd\trqc\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx5387\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx6154\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx7885\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\li57\ri0\lin57\rin0\fi0{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'c8\'e7\'ed\'ee\'f1}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ee\'e1\'fa\'e5\'ea\'f2\'ee\'e2}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e2\'ed\'e5\'f8\'ed\'e5\'e3\'ee}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e1\'eb\'e0\'e3\'ee\'f3\'f1\'f2\'f0\'ee\'e9\'f1\'f2\'e2\'e0}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e8}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e4\'f0\'f3\'e3\'e8\'f5}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e0\'ed\'e0\'eb\'ee\'e3\'e8\'f7\'ed\'fb\'f5}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ee\'e1\'fa\'e5\'ea\'f2\'ee\'e2}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+980}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\row\pard\trowd\trqc\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx5387\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx6154\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx7885\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\li57\ri0\lin57\rin0\fi0{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'cd\'e5\'ec\'e0\'f2\'e5\'f0\'e8\'e0\'eb\'fc\'ed\'fb\'e5}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e0\'ea\'f2\'e8\'e2\'fb,}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ef\'ee\'eb\'f3\'f7\'e5\'ed\'ed\'fb\'e5}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'e2}{\hich\af8\dbch\af8\rtlch \ltrch\loch\loch\f8
+ }{\dbch\af8\rtlch \ltrch\loch\loch\f8
+\'ef\'ee\'eb\'fc\'e7\'ee\'e2\'e0\'ed\'e8\'e5}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+990}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\row\pard\trowd\trqc\ltrrow\trrh284\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx5387\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw30\brdrcf1\clbrdrb\brdrs\brdrw30\brdrcf1\clvertalb\cellx6154\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw30\brdrcf1\clvertalb\cellx7885\clbrdrt\brdrs\brdrw10\brdrcf1\clbrdrl\brdrs\brdrw10\brdrcf1\clbrdrb\brdrs\brdrw30\brdrcf1\clbrdrr\brdrs\brdrw30\brdrcf1\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\li57\ri0\lin57\rin0\fi0{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\rtlch \ltrch\loch\loch\f8
+}\cell\row\pard\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+}
+\par \trowd\trql\ltrrow\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clvertalb\cellx1276\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx2866\clvertalb\cellx2964\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx4819\clvertalb\cellx6041\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx7517\clvertalb\cellx7659\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx9638\pard\plain \s26\ql\widctlpar\tqc\tx4153\tqr\tx8306\ltrpar\cf0\hich\af5\dbch\af5\afs20\lang1025\loch\f5\fs20\lang1049\intbl{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+\'d0\'f3\'ea\'ee\'e2\'ee\'e4\'e8\'f2\'e5\'eb\'fc}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qr\li0\ri57\lin0\rin57\fi0{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+\'c3\'eb\'e0\'e2\'ed\'fb\'e9}{\hich\af8\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+ }\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+}\cell\row\pard\trowd\trql\ltrrow\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clvertalt\cellx1276\clvertalt\cellx2866\clvertalt\cellx2964\clvertalt\cellx4819\clvertalt\cellx6041\clvertalt\cellx7517\clvertalt\cellx7659\clvertalt\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\afs14\rtlch \ltrch\loch\fs14\loch\f8
+(\'ef\'ee\'e4\'ef\'e8\'f1\'fc)}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\afs14\rtlch \ltrch\loch\fs14\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\afs14\rtlch \ltrch\loch\fs14\loch\f8
+(\'f0\'e0\'f1\'f8\'e8\'f4\'f0\'ee\'e2\'ea\'e0}{\hich\af8\dbch\af8\afs14\rtlch \ltrch\loch\fs14\loch\f8
+ }{\dbch\af8\afs14\rtlch \ltrch\loch\fs14\loch\f8
+\'ef\'ee\'e4\'ef\'e8\'f1\'e8)}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qr\li0\ri57\lin0\rin57\fi0{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+\'e1\'f3\'f5\'e3\'e0\'eb\'f2\'e5\'f0}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\afs14\rtlch \ltrch\loch\fs14\loch\f8
+(\'ef\'ee\'e4\'ef\'e8\'f1\'fc)}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\afs14\rtlch \ltrch\loch\fs14\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\afs14\rtlch \ltrch\loch\fs14\loch\f8
+(\'f0\'e0\'f1\'f8\'e8\'f4\'f0\'ee\'e2\'ea\'e0}{\hich\af8\dbch\af8\afs14\rtlch \ltrch\loch\fs14\loch\f8
+ }{\dbch\af8\afs14\rtlch \ltrch\loch\fs14\loch\f8
+\'ef\'ee\'e4\'ef\'e8\'f1\'e8)}\cell\row\pard\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049{\dbch\af8\afs2\rtlch \ltrch\loch\fs2\loch\f8
+}
+\par \trowd\trql\ltrrow\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clvertalb\cellx517\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx1755\clvertalb\cellx2238\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx7503\clvertalb\cellx8261\clbrdrb\brdrs\brdrw10\brdrcf1\clvertalb\cellx9051\clvertalb\cellx9638\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qr{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+\'ab}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+\'bb}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qc{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl\qr{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+20}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+}\cell\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049\intbl{\hich\af8\dbch\af8\afs18\rtlch \ltrch\fs18\loch\f8
+ }{\dbch\af8\afs18\rtlch \ltrch\loch\fs18\loch\f8
+\'e3.}\cell\row\pard\pard\plain \s0\ql\widctlpar\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\hich\af5\dbch\af5\afs20\lang1025\langfe2052\loch\f5\fs20\lang1049{\rtlch \ltrch\loch
+}
+\par }
